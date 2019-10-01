@@ -23,8 +23,8 @@ Set root password
 
 Add xero user
 
-	sudo adduser xero
-	sudo adduser xero sudo
+	adduser xero
+	adduser xero sudo
 	su - xero
 
 Install 
