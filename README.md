@@ -37,6 +37,7 @@ On the dashboard:
 
 	Add your node by entering "1"
 	Select your type of node from the list (Chain Node) 
+	Enter port 30305
 	Paste your private key containing the nodes collateral
 **Congratulations your node setup is complete.**
 
