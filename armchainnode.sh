@@ -13,6 +13,7 @@ echo 'Installing XERO Node binary'
 echo '**************************'
 
 # Download node binary
+
 wget https://github.com/xero-official/go-xerom/releases/download/2.0.2/geth-arm.zip
 
 unzip geth-arm.zip
@@ -51,6 +52,8 @@ echo 'Setting Up Node dashboard'
 echo '**************************'
 
 # Download node Dashboard
+rm dashboard-arm
+
 wget https://github.com/xero-official/node-deployment-dashboard/raw/master/build/dashboard-arm
 
 # Make Dashboard executable
@@ -81,6 +84,9 @@ echo ''
 echo ''
 
 sleep 10s
+
+# Remove and cleanup
+rm geth-arm.zip
 
 # Activate Dashboard
 ./dashboard-arm
