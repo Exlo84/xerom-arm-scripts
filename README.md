@@ -20,6 +20,9 @@ Set root password
 	sudo -i
 	passwd
 	
+	apt update
+	apt upgrade -y
+	
 
 Add xero user
 
