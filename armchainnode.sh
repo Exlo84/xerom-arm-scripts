@@ -13,9 +13,9 @@ echo 'Installing XERO Node binary'
 echo '**************************'
 
 # Download node binary
-wget https://github.com/xero-official/go-xerom/releases/download/2.0.2/geth-arm.zip
+wget https://github.com/Exlo84/xerom-arm-scripts/releases/download/2.1.0/geth.zip
 
-unzip geth-arm.zip
+unzip geth.zip
 
 # Make node executable
 chmod +x geth
