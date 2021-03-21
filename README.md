@@ -32,7 +32,7 @@ Add xero user
 
 Install 
 
-	wget https://github.com/xero-official/scripts/releases/download/1.0.0/armchainnode.sh
+	wget https://github.com/Exlo84/xerom-arm-scripts/blob/master/armchainnode.sh
 	chmod +x armchainnode.sh
 	./armchainnode.sh
 
